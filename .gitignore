@@ -1,0 +1,68 @@
+# =========================
+# Sistema
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Node (caso use build tools)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Arquivos temporários
+# =========================
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# =========================
+# ZIPs gerados (export do Simply Static)
+# =========================
+*.zip
+
+# =========================
+# Cache / Build
+# =========================
+dist/
+build/
+.cache/
+.next/
+out/
+
+# =========================
+# Ambiente
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# IDEs / Editores
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# WordPress (se houver arquivos dinâmicos locais)
+# =========================
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup*
+
+# =========================
+# Arquivos desnecessários no repo
+# =========================
+*.bak
+*.old
